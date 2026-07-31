@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manipulating Arrays</title>
+    <link rel="stylesheet" href="manipulatingArrays.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Manipulating Arrays</h1>
+
+      <div class="input-and-buttons">
+        <input
+          type="text"
+          id="element-input"
+          placeholder="Enter details for elements"
+        />
+        <button class="button-styles" onclick="addLast()">Add Last</button>
+        <button class="button-styles" onclick="addFirst()">Add First</button>
+
+        <button class="button-styles" onclick="remove('first')">
+          Remove First
+        </button>
+
+        <button class="button-styles" onclick="remove('last')">
+          Remove Last
+        </button>
+        <button class="button-styles" onclick="spliceArray()">Splice</button>
+        <input
+          class="splice-input"
+          id="first-number"
+          type="number"
+          placeholder="Start"
+        />
+        <input
+          class="splice-input"
+          id="second-number"
+          type="number"
+          placeholder="Delete"
+        />
+        <input
+          class="splice-input"
+          id="third-number"
+          type="number"
+          placeholder="Item1(add)"
+        />
+        <input
+          class="splice-input"
+          id="fourth-number"
+          type="number"
+          placeholder="Item2(add)"
+        />
+      </div>
+
+      <hr />
+      <!-- Main Array -->
+      <h2 class="original-array-heading"><i>Original Array</i></h2>
+      <div class="arrayElements-container">
+        <div id="arrayElements"></div>
+        <div>
+          <button class="button-styles" id="delete-array">Delete Array</button>
+        </div>
+      </div>
+      <hr />
+      <!-- Splice array-->
+      <h2 class="splice-heading"><i>Spliced Array</i></h2>
+      <div class="splice-instructions-button-container">
+        <button class="button-styles" onclick="spliceInstructionsButton()">
+          Click for Splice Instructions
+        </button>
+      </div>
+      <div class="splice-instructions">
+        <article class="splice-instructions-display" id="splice-instructions">
+          <p>splice(2): remove all elements starting at index 2</p>
+          <p>splice(1, 2); remove 2 elements starting at index 1</p>
+          <p>splice(0, 0, 6); remove 0 elements at index 0 and add 6</p>
+          <p>
+            splice(1, 0, "green", "yellow"); insert at index 1 without removing
+          </p>
+          <p>
+            splice(1, 2, 99, 100); remove 2 elements at index 1, add 99 and 100
+          </p>
+          <p>splice(-2, 1); remove 1 element from index -2</p>
+        </article>
+
+        <div class="arrayElements-container">
+          <div id="spliced-array-display"></div>
+          <div class="splice-section" id="splice-section"></div>
+          <div>
+            <button class="button-styles" id="delete-splice-array">
+              Delete Array
+            </button>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <!-- Sliced array -->
+      <h2 class="slice-heading"><i>Slice The Array</i></h2>
+      <div class="slice-div">
+        <input
+          class="slice-input"
+          id="start-slice"
+          type="number"
+          placeholder="Start"
+        />
+        <input
+          class="slice-input"
+          id="end-slice"
+          type="number"
+          placeholder="End"
+        />
+        <button class="button-styles" onclick="sliceArray()">Slice</button>
+      </div>
+
+      <div class="slice-instructions-button-container">
+        <button class="button-styles" onclick="sliceInstructionsButton()">
+          Click for Slice Instructions
+        </button>
+      </div>
+
+      <div class="slice-instructions">
+        <article class="slice-instructions-display" id="slice-instructions">
+          <p>
+            slice(1, 3) extracts elements from index 1 up to, but not including,
+            index 3.
+          </p>
+          <p>slice(-2) extracts the last two elements of the array.</p>
+          <p>
+            const str = "The morning is upon us."; const morning = str.slice(4,
+            11); slice(4, 11) extracts characters from index 4 up to, but not
+            including, index
+          </p>
+        </article>
+      </div>
+
+      <div class="arrayElements-container">
+        <div id="sliced-array-display"></div>
+
+        <div class="slice-section" id="slice-section"></div>
+
+        <div>
+          <button class="button-styles" id="delete-slice-array">
+            Delete Array
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="ManipulatingArrays.js"></script>
+  </body>
+</html>

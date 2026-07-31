@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 70%;
+  height: auto;
+  margin: auto;
+}
+.container h1 {
+  text-align: center;
+}
+
+.input-and-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.original-array-heading {
+  text-align: center;
+  background-color: yellow;
+  padding: 5px;
+}
+.splice-input,
+.slice-input {
+  width: 90px;
+}
+.button-styles {
+  cursor: pointer;
+  padding: 5px 10px;
+  font-weight: bold;
+  border: none;
+}
+
+.button-styles:hover {
+  transform: scale(1.1);
+  border: 1px solid black;
+}
+
+.arrayElements-container {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Splice */
+.splice-heading {
+  text-align: center;
+  background-color: orange;
+  padding: 5px;
+}
+.splice-instructions,
+.slice-instructions {
+  text-align: center;
+  padding: 10px;
+}
+
+.splice-instructions-display {
+  display: none;
+  text-align: center;
+}
+.splice-instructions-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.delete-splice-array {
+  text-align: center;
+}
+
+/* Slice */
+.slice-heading {
+  text-align: center;
+  background-color: lightgreen;
+  padding: 5px;
+}
+.slice-div {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  padding: 10px;
+  height: auto;
+}
+
+.slice-instructions-button-container {
+  display: flex;
+  justify-content: center;
+}
+.slice-instructions-display {
+  display: none;
+}
+
+.slice-section {
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Classes Added In JavaScript */
+.splice-highlight {
+  background-color: orange;
+}
+.slice-highlight {
+  background-color: lightgreen;
+}
+.array-highlight {
+  background-color: yellow;
+}
