@@ -28,7 +28,7 @@ Live Demo: https://manipulating-arrays.vercel.app/
 ## Overview
 
 ### Motivation
- I wanted to develop an application to help understand how to manipulate an array and display the results using JavaScript methods, pop(), shift() and unshift(). Also to show the importance of the difference between slice() and splice().
+ I wanted to develop an application to help understand how to manipulate an array and display the results using JavaScript methods,push(), pop(), shift() and unshift(). Also to show the importance of the difference between slice() and splice().
 
 
 
@@ -47,10 +47,10 @@ What problem does this application solve?
 
 
 
--  Input areas to add numbers
-- Functionality to toggle slice and splice instructions
+-  Input areas to add data
+- Functionality to toggle the slice and splice instructions on and off
 -  Functionality to delete the individual arrays
--  Created in individual sections
+-  Created  individual sections
 - Created an alert if the input fields are empty
 - Functionality to  Add Last, Add First, Remove First, Remove Last, Splice and Slice
   - Display and update the array each time the user clicks a button
