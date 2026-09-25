@@ -39,10 +39,6 @@ What problem does this application solve?
 
 ### Learning Outcomes
 
-- Learnt how to use JavaScript to change the image
-- Learnt how to use CSS to add a filter effect
-- Learnt how to use CSS to add a gradient colour theme
-
 
 
 
@@ -51,13 +47,13 @@ What problem does this application solve?
 
 
 
--  Input areas to add numbers 
-- Buttons to toggle slice and splice instructions
+-  Input areas to add numbers
+- Functionality to toggle slice and splice instructions
 -  Functionality to delete the individual arrays
 -  Created in individual sections
 - Created an alert if the input fields are empty
-
----
+- Functionality to  Add Last, Add First, Remove First, Remove Last, Splice and Slice
+  - Display and update the array each time the user clicks a button
 
 ## Tech Stack
 
