@@ -38,7 +38,7 @@ Live Demo: https://manipulating-arrays.vercel.app/
 -  Created  individual sections
 - Created an alert if the input fields are empty
 - Functionality to  Add Last, Add First, Remove First, Remove Last, Splice and Slice
-  - Display and update the array each time the user clicks a button
+- Display and update the array each time the user clicks a button
 
 ## Tech Stack
 
