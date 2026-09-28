@@ -31,21 +31,7 @@ Live Demo: https://manipulating-arrays.vercel.app/
  I wanted to develop an application to help understand how to manipulate an array and display the results using JavaScript methods,push(), pop(), shift() and unshift(). Also to show the importance of the difference between slice() and splice().
 
 
-
-
-### Objective
-
-What problem does this application solve?
-
-### Learning Outcomes
-
-
-
-
-
 ## Project Features
-
-
 
 -  Input areas to add data
 - Functionality to toggle the slice and splice instructions on and off
@@ -85,11 +71,6 @@ client/
 |   ManipulatingArrays.css
 |   ManipulatingArrays.js
 
-  
-
-    
-
-      
 
 ```
 
@@ -104,9 +85,6 @@ git clone https://github.com/pj74ncoding/manipulating-arrays.git
 cd manipulating-arrays
 
 
-
-
-
 ```
 
 ### Install Dependencies
@@ -115,11 +93,6 @@ Frontend:
 
 ```bash
 cd manipulating-arrays
-
-
-
-
-
 npm install
 ```
 
@@ -130,8 +103,6 @@ Frontend:
 ```bash
 npm start
 ```
-
-
 
 Add inside README:
 
