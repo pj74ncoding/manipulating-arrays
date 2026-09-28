@@ -1,8 +1,7 @@
 # manipulating-arrays
 
 
-
-Created and designed an application with functionality do display how to manipulate arrays with JavaScript
+Created and designed an application with functionality to explain and display how to manipulate arrays with JavaScript
 
 
 Live Demo: https://manipulating-arrays.vercel.app/
