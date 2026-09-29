@@ -27,6 +27,9 @@ Live Demo: https://manipulating-arrays.vercel.app/
 ## Overview
 
 ### Motivation
+
+- Personal project
+  
  I wanted to develop an application to help understand how to manipulate an array and display the results using JavaScript methods,push(), pop(), shift() and unshift(). Also to show the importance of the difference between slice() and splice().
 
 
