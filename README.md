@@ -1,8 +1,6 @@
 # manipulating-arrays
 
-
 Created and designed an application with functionality to explain and display how to manipulate arrays with JavaScript
-
 
 Live Demo: https://manipulating-arrays.vercel.app/
 
@@ -35,12 +33,12 @@ Live Demo: https://manipulating-arrays.vercel.app/
 
 ## Project Features
 
--  Input areas to add data
+- Input areas to add data
 - Functionality to toggle the slice and splice instructions on and off
--  Functionality to delete the individual arrays
--  Created  individual sections
+- Functionality to delete the individual arrays
+- Created individual sections
 - Created an alert if the input fields are empty
-- Functionality to  Add Last, Add First, Remove First, Remove Last, Splice and Slice
+- Functionality to Add Last, Add First, Remove First, Remove Last, Splice and Slice
 - Display and update the array each time the user clicks a button
 
 ## Tech Stack
@@ -86,7 +84,6 @@ client/
 git clone https://github.com/pj74ncoding/manipulating-arrays.git
 cd manipulating-arrays
 
-
 ```
 
 ### Install Dependencies
@@ -94,25 +91,16 @@ cd manipulating-arrays
 Frontend:
 
 ```bash
-cd manipulating-arrays
 npm install
 ```
 
-### Run Development Servers
+### Application
 
 Frontend:
 
 ```bash
 npm start
 ```
-
-Add inside README:
-
-```markdown
-![Home Page](assets/home.png)
-![Dashboard](assets/dashboard.png)
-```
-
 ---
 
 ## Future Improvements
