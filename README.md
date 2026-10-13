@@ -14,7 +14,6 @@ Live Demo: https://manipulating-arrays.vercel.app/
 - [Architecture](#architecture)
 - [Installation](#installation)
 - [Project Features](#usage)
-- [Screenshots](#screenshots)
 - [Deployment](#deployment)
 - [Future Improvements](#future-improvements)
 - [Credits](#credits)
